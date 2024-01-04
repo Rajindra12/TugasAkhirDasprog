@@ -203,7 +203,6 @@ nav a {
 
 .end {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 130px 144px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -213,7 +212,6 @@ nav a {
   background-size: cover;
   position: relative;
   height: 650px;
-  gap: 1000px;
   margin-bottom: 10px;
 }
 
@@ -234,30 +232,12 @@ nav a {
   color: var(--secondary-color);
 }
 
-.end__text-subtitle {
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 76px;
-  word-wrap: break-word;
-}
-
-.end__text-disc {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  word-wrap: break-word;
-}
-
 .end__text-desc {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   color: var(--greenish);
-}
-
-.end_image {
-  width: 40%;
 }
 
 footer {
